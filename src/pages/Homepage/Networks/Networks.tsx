@@ -3,10 +3,14 @@ import TwitterIcon from '@mui/icons-material/Twitter'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import EmailIcon from '@mui/icons-material/Email'
 import { IconLinkWrapper, NetworksWrapper } from './Networks.style'
+import { ReactComponent as Leetcode } from '../../../assets/leetcode.svg'
 
 export function Networks() {
   return (
     <NetworksWrapper>
+      <IconLinkWrapper href={'https://leetcode.com/bohdanprog/'} title={'Leetcode'}>
+        <Leetcode style={{ width: 26, height: 26, marginRight: 10 }} />
+      </IconLinkWrapper>
       <IconLinkWrapper href={'https://github.com/bohdanprog'} title={'Github'}>
         <GitHubIcon style={{ width: 26, height: 26, marginRight: 10 }} />
       </IconLinkWrapper>
