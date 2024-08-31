@@ -54,10 +54,10 @@ export const GlobalStyle = styled.createGlobalStyle`
     margin: 0 auto;
     padding: 0px 14px;
     ${({ theme }) => theme.sizes.media.lg} {
-      padding: 0px 80px;
+      // padding: 0px 80px;
     }
     ${({ theme }) => theme.sizes.media.xxl} {
-      padding: 0px 208px;
+      // padding: 0px 208px;
     }
   }
 
