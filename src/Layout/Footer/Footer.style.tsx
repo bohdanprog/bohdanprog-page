@@ -6,7 +6,7 @@ export const StyledFooter = styled.footer`
   padding: 24px 0px;
   justify-content: center;
 `
-export const FooterContent = styled.div`
+export const FooterContent = styled('div')`
   display: flex;
   justify-content: space-between;
   flex-direction: column;

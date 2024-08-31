@@ -5,7 +5,7 @@ export const IconWrapper = styled.div`
   justify-content: center;
   align-items: center;
 `
-export const SwitchWrapper = styled.div`
+export const SwitchWrapper = styled('div')`
   display: flex;
   cursor: pointer;
 `
