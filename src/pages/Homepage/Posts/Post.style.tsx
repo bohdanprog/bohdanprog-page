@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const PostWrapper = styled.div`
+export const PostWrapper = styled('div')`
   padding: 24px;
   border-radius: 5px;
   cursor: pointer;
@@ -14,22 +14,22 @@ export const PostTitle = styled.h3`
   color: ${({ theme }) => theme.colors.fontColor};
 `
 
-export const PostDescription = styled.p`
+export const PostDescription = styled('p')`
   color: ${({ theme }) => theme.colors.secondaryFontColor};
 `
 
 export const PostsWrapper = styled.div`
   display: flex;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
-  margin: 68px 0 96px;
+  margin: 28px 0 96px;
   gap: 32px;
   ${({ theme }) => theme.sizes.media.sm} {
-    margin: 128px 0;
+    margin: 50px 0 50px;
   }
   ${({ theme }) => theme.sizes.media.xxl} {
-    margin: 176px 0;
+    margin: 50px 0 50px;
   }
 `
 
