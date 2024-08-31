@@ -7,7 +7,7 @@ export interface PostData {
   id: number
   title: string
   description: string
-  subTitle: string
+  subTitle?: string
   link: string
   author: string
   date: string
