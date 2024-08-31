@@ -9,7 +9,7 @@ export const WelcomeText = () => {
         <StyledText>
           This is my personal blog where I document my journey in finding my purpose in life.
         </StyledText>
-        <StyledText>I work as a Software Engineer at Blocklabs.</StyledText>
+        <StyledText>I'm a Software Engineer at Software Mansion.</StyledText>
       </ul>
     </>
   )
