@@ -7,9 +7,9 @@ export const HomepageWrapper = styled.section`
   margin: 68px 0 96px;
   gap: 32px;
   ${({ theme }) => theme.sizes.media.sm} {
-    margin: 128px 0;
+    margin: 0;
   }
   ${({ theme }) => theme.sizes.media.xxl} {
-    margin: 176px 0;
+    margin: 0;
   }
 `
